@@ -1,0 +1,40 @@
+{
+  "proyectos": {
+    "HTX": {
+      "nombre": "Hotel Majestic – HTX",
+      "pm": "712020:ana",
+      "kpis": {
+        "2025-04-05": {
+          "tareas_completadas": 13,
+          "sla_cumplidos": 19,
+          "tickets_criticos": 3,
+          "generado_por": "job_auto"
+        },
+        "2025-04-08": {
+          "tareas_completadas": 15,
+          "sla_cumplidos": 21,
+          "tickets_criticos": 2,
+          "generado_por": "manual_PM"
+        }
+      },
+      "reuniones": {
+        "kickoff_wifi": {
+          "fecha": "2025-04-10T10:00:00",
+          "acta_transcripcion": "Durante la reunión se discutió la implementación de la red Wi-Fi...",
+          "tareas_sugeridas": [
+            "Configurar puntos de acceso en planta baja",
+            "Revisar la topología de red con el equipo técnico"
+          ]
+        },
+        "reunion_CCTV": {
+          "fecha": "2025-04-12T12:00:00",
+          "acta_transcripcion": "El equipo solicitó validación de los puntos de cámara propuestos...",
+          "tareas_sugeridas": [
+            "Validar posiciones de cámara",
+            "Enviar solicitud de compra de cámaras"
+          ]
+        }
+      }
+    }
+  }
+}
