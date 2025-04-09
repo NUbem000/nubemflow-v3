@@ -1,0 +1,62 @@
+📘 NubemFlow – Guía de Configuración Firebase (Firestore)
+
+Esta guía te permite conectar NubemFlow con Firestore usando Python y `firebase-admin`.
+
+---
+
+✅ PASO 1: Crear un proyecto en Firebase
+1. Ir a https://console.firebase.google.com/
+2. Crear un nuevo proyecto (por ejemplo: nubemflow-prod)
+3. Activar Firestore (modo producción)
+4. Activar cuenta de servicio
+
+---
+
+✅ PASO 2: Generar clave de servicio
+1. Ir a "Configuración del proyecto" > "Cuentas de servicio"
+2. Crear una nueva clave privada en formato JSON
+3. Descarga el archivo y guárdalo como: `firebase-key.json`
+
+---
+
+✅ PASO 3: Instalar dependencias en tu entorno
+```bash
+pip install firebase-admin
+```
+
+---
+
+✅ PASO 4: Modificar el archivo `firebase_uploader.py`
+Reemplaza esta línea con la ruta real de tu archivo de claves:
+
+```python
+CRED_FILE = "/ruta/a/tu/firebase-key.json"
+```
+
+---
+
+✅ PASO 5: Ejecutar y probar
+```bash
+python scripts/firebase_uploader.py
+```
+
+Deberías ver:
+```
+✅ Datos subidos correctamente a Firestore.
+```
+
+---
+
+🛡 Seguridad:
+- Guarda tu archivo de claves en un entorno seguro.
+- No lo subas a GitHub ni lo compartas públicamente.
+
+---
+
+📡 Acceso desde GPT:
+Una vez los datos estén en Firestore, puedes crear una API REST (o usar Cloud Functions) para que NubemFlow GPT acceda de forma controlada a los KPIs, reuniones, tareas, etc.
+
+---
+
+📍 Contacto:
+Para más integraciones avanzadas, dashboards o acceso multiusuario, considerar Firestore + Firebase Auth + Cloud Functions.
