@@ -1,56 +1,82 @@
-# 🧠 NubemFlow v3.0 – CloudDeploy Edition
+# 🚀 NubemFlow v3.0 – CloudDeploy
 
-Sistema inteligente de gestión de proyectos IT con automatizaciones GPT, JIRA, Confluence, Google Calendar y Firestore.
-
----
-
-## 🚀 Funcionalidades Clave
-
-- 📆 Flujo automático desde reuniones Calendar → Tareas JIRA
-- 🤖 Memoria activa y decisiones encadenadas con GPT
-- ⏱ Imputación horaria automatizada en JIRA
-- 📝 Documentación técnica en Confluence
-- 💬 Comentarios GPT en incidencias
-- 📊 Reporting inteligente con análisis y KPIs
-- 🔒 Integración segura con OAuth y Firestore
+**NubemFlow** es una plataforma inteligente para la gestión de proyectos IT, soporte técnico, automatización documental y control de KPIs, con integración nativa a JIRA, Google Meet, Calendar, Gmail y Confluence.
 
 ---
 
-## 📁 Estructura del Proyecto
+## 🧠 Funcionalidades principales
+
+- **🎯 Detección de reuniones técnicas** y generación de tareas con GPT
+- **📅 Integración Google Calendar & Meet** con transcripción automática
+- **💬 Generación de incidencias y comentarios en JIRA**
+- **📄 Documentación técnica automatizada en Confluence**
+- **📊 Seguimiento de KPIs técnicos con análisis predictivo**
+- **🧠 Memoria activa (Firestore o Local) por proyecto**
+
+---
+
+## 🧩 Estructura del proyecto
 
 ```
 nubemflow-v3/
-├── scripts/                 # Flujo funcional y automatizaciones
-├── nubem_core/              # Núcleo modular (auth, memoria, GPT, logger, etc.)
-├── deploy/                  # Funciones listas para Cloud Functions
-│   └── flujo_meet_to_jira/  # Flujo GPT-JIRA como Cloud Function
-├── tests/                   # Pruebas automatizadas con pytest
-├── jobs/                    # Ejecuciones programables
-├── .env                     # Variables sensibles (no subir con claves reales)
-├── README.md                # Este archivo
+├── deploy/
+│   └── flujo_meet_to_jira/
+│       ├── main.py                  # Cloud Function: reuniones → JIRA
+│       └── requirements.txt
+├── scripts/
+│   ├── gpt_context_manager.py       # GPT conversacional con memoria activa
+│   ├── add_worklog_JIRA.py
+│   ├── add_comment_JIRA.py
+│   └── crearDocumentacionConfluence.py
+├── nubem_core/
+│   ├── google_services/            # Meet, Calendar, OAuth
+│   ├── memoria/                    # Firestore vs local
+│   └── predictive/                 # Detección de tareas
+├── plantillas_jira/                # Plantillas exportables a JIRA
+└── run_tests.py                    # Pruebas automáticas
 ```
 
 ---
 
-## 🚀 Despliegue en Google Cloud
+## ☁️ Despliegue en Google Cloud Functions
 
-1. Crear proyecto Firebase + Firestore
-2. Configurar OAuth en Google Cloud Console
-3. Desplegar `/deploy/flujo_meet_to_jira` con:
+1. Activa:
+   - Cloud Functions
+   - Firestore
+   - Gmail API
+   - Calendar API
+
+2. Configura variables de entorno:
+
+```
+USUARIO_EMAIL=tecnico@nubemsystems.es
+PROYECTO=HTX
+PROJECT_KEY=HTX
+NUBEMFLOW_MODE=cloud
+```
+
+3. Despliega con:
+
 ```bash
 gcloud functions deploy ejecutar_flujo_meet \
-  --runtime python311 \
+  --runtime python310 \
   --trigger-http \
   --allow-unauthenticated \
   --entry-point ejecutar_flujo_meet \
-  --region europe-west1 \
-  --source ./deploy/flujo_meet_to_jira \
-  --set-env-vars USUARIO_EMAIL=...,PROYECTO=...,PROJECT_KEY=...
+  --set-env-vars USUARIO_EMAIL=tecnico@nubemsystems.es,PROYECTO=HTX,PROJECT_KEY=HTX,NUBEMFLOW_MODE=cloud
 ```
 
 ---
 
-## 🧪 Pruebas
+## 🔐 Seguridad
+
+- Uso de OAuth2 para Gmail y Calendar.
+- Firestore como sistema seguro de memoria activa.
+- Cloud Functions con acceso restringido vía token/API Gateway (recomendado).
+
+---
+
+## 🧪 Tests
 
 ```bash
 python run_tests.py
@@ -58,16 +84,8 @@ python run_tests.py
 
 ---
 
-## 🧠 Requisitos
+## 📞 Contacto
 
-- Python 3.11+
-- Git
-- Cuenta en Google Cloud (con permisos en Functions y Firestore)
-- Cuenta JIRA y Confluence
-
----
-
-## 📫 Contacto
-
-Este repositorio es parte del ecosistema NubemFlow.  
-Para soporte o colaboración, contáctanos vía GitHub o correo.
+Desarrollado por el equipo de **NubemSystems**  
+🔗 www.nubemsystems.es
+📧 soporte@nubemsystems.es
