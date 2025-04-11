@@ -1,0 +1,24 @@
+{
+  "fases": [
+    {
+      "nombre": "Estudio y Viabilidad",
+      "proposito": "Analizar viabilidad t\u00e9cnica, econ\u00f3mica y ambiental.",
+      "tareas": [
+        {
+          "nombre": "An\u00e1lisis de mercado",
+          "documentacion": [
+            "Informe de mercado",
+            "Benchmarking"
+          ],
+          "hitos": [
+            "Aprobaci\u00f3n de viabilidad comercial"
+          ]
+        }
+      ]
+    }
+  ],
+  "generado_por": "GPT",
+  "timestamp": "2025-04-11T16:41:36.352485",
+  "tipo_proyecto": "Construccion residencia universitaria",
+  "objetivo": "Construir dos bloques de 180 habitaciones cadas uno, exsistira un edifico principal donde se hubicara la recepcion, y el otro solo tendra habitaciones y los servicios que se definan"
+}

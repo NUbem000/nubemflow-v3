@@ -1,0 +1,31 @@
+{
+    "issue_types": [
+        {
+            "name": "Tarea",
+            "description": "Trabajo simple",
+            "type": "standard"
+        },
+        {
+            "name": "Bug",
+            "description": "Error t\u00e9cnico",
+            "type": "standard"
+        }
+    ],
+    "custom_fields": [
+        {
+            "name": "Fecha Vencimiento",
+            "description": "Fecha l\u00edmite para completar la tarea",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker"
+        },
+        {
+            "name": "Stakeholder",
+            "description": "Persona interesada o afectada",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+        },
+        {
+            "name": "Etiquetas",
+            "description": "Tags para categorizaci\u00f3n",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:labels"
+        }
+    ]
+}

@@ -40,3 +40,7 @@ def añadir_a_lista(proyecto_id, campo, valor):
     if valor not in memoria[campo]:
         memoria[campo].append(valor)
     guardar_memoria(proyecto_id, memoria)
+
+def guardar_log_version(nombre_archivo, version):
+    print(f'[MOCK] Versión registrada para {nombre_archivo} – {version}')
+

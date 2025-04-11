@@ -1,0 +1,51 @@
+{
+    "issue_types": [
+        {
+            "name": "\u00c9pica",
+            "description": "Estructura general del proyecto",
+            "type": "standard"
+        },
+        {
+            "name": "Tarea",
+            "description": "Trabajo general dentro del proyecto",
+            "type": "standard"
+        },
+        {
+            "name": "Sub-tarea",
+            "description": "Paso concreto dentro de una tarea",
+            "type": "subtask"
+        },
+        {
+            "name": "Bug",
+            "description": "Incidencia o error reportado",
+            "type": "standard"
+        }
+    ],
+    "custom_fields": [
+        {
+            "name": "Fase del Proyecto",
+            "description": "Fase del Proyecto (NubemFlow)",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+        },
+        {
+            "name": "Departamento/Equipo",
+            "description": "Departamento responsable",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+        },
+        {
+            "name": "Fecha Solicitada",
+            "description": "Fecha en que se solicita la tarea",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker"
+        },
+        {
+            "name": "Prioridad del Negocio",
+            "description": "Nivel de prioridad del negocio",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+        },
+        {
+            "name": "URL/Referencia externa",
+            "description": "Enlace relacionado",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:url"
+        }
+    ]
+}

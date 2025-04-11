@@ -1,0 +1,15 @@
+[
+  {
+    "tarea": "Estudio y Viabilidad \u2013 An\u00e1lisis de mercado",
+    "estado": "pendiente",
+    "fase": "Estudio y Viabilidad",
+    "responsable": "Por asignar",
+    "documentacion": [
+      "Informe de mercado",
+      "Benchmarking"
+    ],
+    "hitos": [
+      "Aprobaci\u00f3n de viabilidad comercial"
+    ]
+  }
+]

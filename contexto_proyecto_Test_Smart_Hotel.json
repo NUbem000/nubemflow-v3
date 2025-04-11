@@ -1,0 +1,20 @@
+{
+  "nombre_proyecto": "Test Smart Hotel",
+  "tipo": "Business",
+  "objetivo": "Supervisar, coordinar y validar la instalaci\u00f3n IT de un hotel inteligente.",
+  "descripcion": "El proyecto abarca licitaci\u00f3n, selecci\u00f3n de proveedores, instalaci\u00f3n y pruebas de Wifi, CCTV, SAI, control de accesos y smart TV.",
+  "estructura": {
+    "tareas_iniciales": [
+      "Kickoff",
+      "Planificaci\u00f3n t\u00e9cnica",
+      "Selecci\u00f3n de proveedores",
+      "Seguimiento de obra"
+    ],
+    "subcarpetas": [
+      "docs",
+      "scripts",
+      "entregables",
+      "visitas"
+    ]
+  }
+}

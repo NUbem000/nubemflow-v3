@@ -1,0 +1,17 @@
+[
+  {
+    "tarea": "Kickoff",
+    "estado": "pendiente",
+    "responsable": "PM"
+  },
+  {
+    "tarea": "Definici\u00f3n de objetivos",
+    "estado": "pendiente",
+    "responsable": "T\u00e9cnico"
+  },
+  {
+    "tarea": "Asignaci\u00f3n de roles",
+    "estado": "pendiente",
+    "responsable": "PM"
+  }
+]

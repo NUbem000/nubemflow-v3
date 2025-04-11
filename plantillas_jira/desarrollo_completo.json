@@ -1,0 +1,56 @@
+{
+    "issue_types": [
+        {
+            "name": "\u00c9pica",
+            "description": "Macro-funci\u00f3n",
+            "type": "standard"
+        },
+        {
+            "name": "Historia de Usuario",
+            "description": "Requisito funcional",
+            "type": "standard"
+        },
+        {
+            "name": "Tarea T\u00e9cnica",
+            "description": "Trabajo dev espec\u00edfico",
+            "type": "standard"
+        },
+        {
+            "name": "Bug",
+            "description": "Error t\u00e9cnico",
+            "type": "standard"
+        },
+        {
+            "name": "Sub-tarea",
+            "description": "Parte de historia o tarea",
+            "type": "subtask"
+        }
+    ],
+    "custom_fields": [
+        {
+            "name": "Story Points",
+            "description": "Estimaci\u00f3n en puntos",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:float"
+        },
+        {
+            "name": "Componentes",
+            "description": "M\u00f3dulo t\u00e9cnico",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:component"
+        },
+        {
+            "name": "Severidad",
+            "description": "Nivel de criticidad",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+        },
+        {
+            "name": "Fix Version",
+            "description": "Versi\u00f3n corregida",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:version"
+        },
+        {
+            "name": "Criterios de Aceptaci\u00f3n",
+            "description": "Condiciones para validar",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:textarea"
+        }
+    ]
+}

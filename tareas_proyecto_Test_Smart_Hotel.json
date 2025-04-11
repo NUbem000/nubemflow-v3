@@ -1,0 +1,15 @@
+[
+  {
+    "tarea": "Fase 1 - An\u00e1lisis inicial \u2013 Recopilaci\u00f3n de necesidades del cliente",
+    "estado": "pendiente",
+    "fase": "Fase 1 - An\u00e1lisis inicial",
+    "responsable": "Por asignar",
+    "documentacion": [
+      "Resumen de requisitos",
+      "Acta de reuni\u00f3n"
+    ],
+    "hitos": [
+      "Validaci\u00f3n de requisitos"
+    ]
+  }
+]

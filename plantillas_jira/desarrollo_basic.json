@@ -1,0 +1,41 @@
+{
+    "issue_types": [
+        {
+            "name": "Historia de Usuario",
+            "description": "Tarea funcional ligera",
+            "type": "standard"
+        },
+        {
+            "name": "Bug",
+            "description": "Problema detectado",
+            "type": "standard"
+        },
+        {
+            "name": "Sub-tarea",
+            "description": "Desglose operativo",
+            "type": "subtask"
+        }
+    ],
+    "custom_fields": [
+        {
+            "name": "Story Points",
+            "description": "Estimaci\u00f3n dev",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:float"
+        },
+        {
+            "name": "Componentes",
+            "description": "M\u00f3dulo funcional",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:component"
+        },
+        {
+            "name": "Etiquetas",
+            "description": "Tags t\u00e9cnicos",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:labels"
+        },
+        {
+            "name": "Fix Version",
+            "description": "Versi\u00f3n de entrega",
+            "type": "com.atlassian.jira.plugin.system.customfieldtypes:version"
+        }
+    ]
+}

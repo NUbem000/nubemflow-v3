@@ -1,0 +1,17 @@
+[
+  {
+    "tarea": "Reuni\u00f3n Kickoff",
+    "estado": "pendiente",
+    "responsable": "Laura"
+  },
+  {
+    "tarea": "Definici\u00f3n de alcance",
+    "estado": "pendiente",
+    "responsable": "David"
+  },
+  {
+    "tarea": "Asignaci\u00f3n de roles",
+    "estado": "pendiente",
+    "responsable": "Laura"
+  }
+]

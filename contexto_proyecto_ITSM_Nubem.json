@@ -1,0 +1,28 @@
+{
+  "nombre_proyecto": "ITSM Nubem",
+  "objetivo": "Soporte IT",
+  "tipo": "Soporte",
+  "plantilla": "Proyecto ITSM",
+  "tecnologias": [
+    "Jira",
+    "atera",
+    "Google workspace"
+  ],
+  "opciones": {
+    "interno": false,
+    "i+d": false
+  },
+  "estructura": {
+    "tareas_iniciales": [
+      "Kickoff",
+      "Definici\u00f3n de objetivos",
+      "Asignaci\u00f3n de roles"
+    ],
+    "subcarpetas": [
+      "docs",
+      "scripts",
+      "entregables",
+      "QA"
+    ]
+  }
+}

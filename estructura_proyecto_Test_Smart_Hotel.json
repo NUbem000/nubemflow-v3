@@ -1,0 +1,23 @@
+{
+  "fases": [
+    {
+      "nombre": "Fase 1 - An\u00e1lisis inicial",
+      "proposito": "Evaluar necesidades del proyecto y definir requerimientos.",
+      "tareas": [
+        {
+          "nombre": "Recopilaci\u00f3n de necesidades del cliente",
+          "documentacion": [
+            "Resumen de requisitos",
+            "Acta de reuni\u00f3n"
+          ],
+          "hitos": [
+            "Validaci\u00f3n de requisitos"
+          ]
+        }
+      ]
+    }
+  ],
+  "generado_por": "GPT - Simulado (modo test)",
+  "timestamp": "2025-04-11T18:56:55.486536",
+  "proyecto": "Test Smart Hotel"
+}

@@ -1,0 +1,69 @@
+{
+  "plantillas": [
+    {
+      "nombre": "Gesti\u00f3n Proyecto IT (Completo)",
+      "tipo": "IT",
+      "nivel": "Completo",
+      "archivo": "Plantilla_Gestion_Proyecto_IT_Completo.md"
+    },
+    {
+      "nombre": "Gesti\u00f3n Proyecto IT (Basic)",
+      "tipo": "IT",
+      "nivel": "B\u00e1sico",
+      "archivo": "Plantilla_Gestion_Proyecto_IT_Basic.md"
+    },
+    {
+      "nombre": "Gesti\u00f3n Desarrollo (Completo)",
+      "tipo": "Desarrollo",
+      "nivel": "Completo",
+      "archivo": "Plantilla_Gestion_Desarrollo_Completo.md"
+    },
+    {
+      "nombre": "Gesti\u00f3n Desarrollo (Basic)",
+      "tipo": "Desarrollo",
+      "nivel": "B\u00e1sico",
+      "archivo": "Plantilla_Gestion_Desarrollo_Basic.md"
+    },
+    {
+      "nombre": "Proyecto ITSM",
+      "tipo": "Soporte",
+      "nivel": "ITSM",
+      "archivo": "Plantilla_Gestion_Proyecto_ITSM.md"
+    },
+    {
+      "nombre": "Proyecto Comercial",
+      "tipo": "Comercial",
+      "nivel": "General",
+      "archivo": null
+    },
+    {
+      "nombre": "Proyecto Subvenciones",
+      "tipo": "Financiero",
+      "nivel": "General",
+      "archivo": null
+    },
+    {
+      "nombre": "Proyecto Marketing",
+      "tipo": "Marketing",
+      "nivel": "General",
+      "archivo": null
+    }
+  ],
+  "metadatos": {
+    "campos_opcionales": {
+      "interno": {
+        "label": "Proyecto Interno",
+        "tipo": "checkbox",
+        "valor_por_defecto": false
+      },
+      "i+d": {
+        "label": "Proyecto de I+D",
+        "tipo": "checkbox",
+        "valor_por_defecto": false
+      }
+    },
+    "comportamiento": {
+      "si_no_se_marca": "El proyecto se considera comercial por defecto."
+    }
+  }
+}

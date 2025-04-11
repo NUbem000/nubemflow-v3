@@ -1,0 +1,35 @@
+{
+  "nombre_proyecto": "NubemFlow",
+  "objetivo": "Automatizaci\u00f3n de procesos y flujos de trabajo de Nubemsystems",
+  "tecnologias": [
+    "ChatGPT",
+    "Jira",
+    "Google cloud",
+    "Gooogle Workspace"
+  ],
+  "estructura": {
+    "tareas_iniciales": [
+      "Reuni\u00f3n Kickoff",
+      "Definici\u00f3n de alcance",
+      "Asignaci\u00f3n de roles"
+    ],
+    "subcarpetas": [
+      "docs",
+      "scripts",
+      "tests",
+      "entregables"
+    ]
+  },
+  "equipo": {
+    "PM": {
+      "nombre": "Laura",
+      "apellido": "Mart\u00ednez",
+      "email": "laura.martinez@nubemsystems.es"
+    },
+    "Responsable T\u00e9cnico": {
+      "nombre": "David",
+      "apellido": "Anguera",
+      "email": "david.anguera@nubemsystems.es"
+    }
+  }
+}

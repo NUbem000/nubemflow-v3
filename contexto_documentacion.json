@@ -1,0 +1,26 @@
+{
+  "proyecto": "Sistema de Monitorizaci\u00f3n TI",
+  "incidencia": "INC-4501",
+  "resumen": "Resumen pendiente de introducir...",
+  "scripts": [
+    "script_principal.py"
+  ],
+  "equipo": {
+    "PM": {
+      "nombre": "Laura",
+      "apellido": "Mart\u00ednez",
+      "telefono": "600123456",
+      "empresa": "NubemSystems",
+      "direccion": "Carrer de la Tecnologia, 12",
+      "email": "laura.martinez@nubemsystems.es"
+    },
+    "T\u00e9cnico": {
+      "nombre": "David",
+      "apellido": "Anguera",
+      "telefono": "600654321",
+      "empresa": "NubemSystems",
+      "direccion": "Passeig de Gr\u00e0cia, 20",
+      "email": "david.anguera@nubemsystems.es"
+    }
+  }
+}
