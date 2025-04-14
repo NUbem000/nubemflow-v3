@@ -1,0 +1,16 @@
+Iniciar proyecto constructivo:
+🏷️ Residencia Universitaria UB Campus Bellvitge
+📍 L'Hospitalet de Llobregat, Barcelona
+👤 Cliente: Universitat de Barcelona
+🎯 Objetivo: Construcción de una residencia universitaria con 120 habitaciones y zonas comunes, bajo criterios de sostenibilidad y eficiencia energética.
+🧱 Fases: Viabilidad, Anteproyecto, Proyecto Ejecutivo, Ejecución, Entrega y Legalización
+👥 Equipo:
+- David Anguera – PM – NubemSystems
+- Maria López – Arquitecta – Estudio ArkTech
+- Carlos Puig – Ingeniero estructural – INGESTEC
+- Laura Medina – Coordinadora BIM – BIMTech Soluciones
+- Javier Torres – Supervisor de obra – NubemSystems
+🧰 Herramientas: Revit, BIM 360, AutoCAD, JIRA, Confluence, MS Project
+📂 Clasificación: Comercial
+
+✅ Confirmo. Genera contexto, tareas base, incidencia test,, genera informe técnico, genera informe técnico, genera informe técnico y exporta en JSON y PDF.
