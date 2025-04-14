@@ -1,0 +1,42 @@
+openapi: 3.1.0
+info:
+  title: NubemFlow - Exportador de Proyectos
+  description: Endpoint para generar archivo ZIP con todos los elementos de un proyecto.
+  version: 1.0.0
+servers:
+  - url: https://REGION-PROYECTO.cloudfunctions.net  # Reemplazar con URL real
+paths:
+  /generarZipProyecto:
+    post:
+      summary: Generar ZIP de entrega de proyecto
+      operationId: generar_zip_proyecto
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                proyecto:
+                  type: string
+              required:
+                - proyecto
+      responses:
+        '200':
+          description: ZIP generado exitosamente
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  mensaje:
+                    type: string
+                  zip_url:
+                    type: string
+                  nombre_archivo:
+                    type: string
+                    description: Nombre del ZIP generado
+                  timestamp:
+                    type: string
+                    format: date-time
+                    description: Fecha y hora de generación

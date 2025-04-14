@@ -1,0 +1,27 @@
+name: Despliegue NubemFlow Actions
+
+on:
+  push:
+    paths:
+      - 'openapi/**'
+      - 'scripts/**'
+      - '.github/workflows/**'
+    branches:
+      - main
+
+jobs:
+  validate-openapi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v3
+
+      - name: Instalar dependencias
+        run: sudo apt-get install -y jq
+
+      - name: Validar sintaxis OpenAPI
+        run: |
+          for file in openapi/*.yaml; do
+            echo "Validando $file"
+            grep 'openapi: 3.1.0' "$file" || exit 1
+          done

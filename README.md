@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 NubemFlow v3.0 – CloudDeploy
 
 **NubemFlow** es una plataforma inteligente para la gestión de proyectos IT, soporte técnico, automatización documental y control de KPIs, con integración nativa a JIRA, Google Meet, Calendar, Gmail y Confluence.
@@ -89,3 +90,36 @@ python run_tests.py
 Desarrollado por el equipo de **NubemSystems**  
 🔗 www.nubemsystems.es
 📧 soporte@nubemsystems.es
+=======
+# NubemFlow Actions - generarZipProyecto
+
+## ✅ Descripción
+Esta acción genera un archivo `.zip` con la entrega final de un proyecto NubemFlow.
+
+## 📥 Input (POST /generarZipProyecto)
+```json
+{
+  "proyecto": "ResidenciaEstudiantil"
+}
+```
+
+## 📤 Respuesta esperada
+```json
+{
+  "mensaje": "ZIP generado exitosamente",
+  "zip_url": "https://.../entrega_ResidenciaEstudiantil.zip",
+  "nombre_archivo": "entrega_ResidenciaEstudiantil_20250414_123000.zip",
+  "timestamp": "2025-04-14T12:30:00Z"
+}
+```
+
+## 🖥️ Uso con curl
+```bash
+curl -X POST https://REGION.cloudfunctions.net/generarZipProyecto \
+  -H "Content-Type: application/json" \
+  -d '{"proyecto": "ResidenciaEstudiantil"}'
+```
+
+## 🧠 GPT Usage (Action configurada)
+Compatible con GPT Actions (OpenAPI 3.1.0)
+>>>>>>> 44e7835 (🔁 Añadir acción generarZipProyecto y automatización de despliegue)
